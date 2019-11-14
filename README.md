@@ -3,7 +3,7 @@
 ```bash
 bettercap -iface _your_interface_
 ```
-- -Sniffing of the victim login credentials a Layer 2 Network
+- - Sniffing of the victim login credentials a Layer 2 Network
 
 ```bash
 set http.proxy.sslstrip true
