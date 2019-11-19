@@ -33,4 +33,4 @@ set net.sniff.output passwords.cap
 ```bash
 net.sniff on
 ```
-# Dood luck ;)
+# Good luck ;)
