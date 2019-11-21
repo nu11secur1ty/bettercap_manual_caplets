@@ -1,3 +1,5 @@
+# https://github.com/nu11secur1ty/bettercap_manual_caplets
+# Author nu11secur1ty
 set http.proxy.sslstrip true
 set arp.spoof.internal true
 set arp.spoof.targets 192.168.1.4
